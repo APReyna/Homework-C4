@@ -1,0 +1,59 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5d6d6;
+    color: #333;
+    margin: 20px;
+  }
+  .titulos {
+    color: darkorchid;
+    font-size: 1.5em;
+  }
+  .foto{
+    width: 15em;
+  }
+  .cards{
+    border: 2px solid violet;
+    width: fit-content;
+    padding: 0px 1em 0px 1em;
+    border-radius: 15px;
+    transition: 0.5s;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+  }
+  .cards:hover{
+    background-color: rgb(245, 175, 212);
+  }
+  .texto{
+margin: auto;
+  }
+  #banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  #minombre{
+    font-size: 1em;
+  }
+  #principal{
+    font-size: 3em;
+  }
+#encabezado{
+    border: 2px solid violet;
+    width: 65vw;
+    border-radius: 15px;
+    margin: auto;
+    padding: 3em;
+}
+#cards-conteiner{
+    width: 85vw;
+    margin: auto;
+    margin-top: 1.5em;
+    border: 2px solid violet;
+    border-radius: 15px;
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}

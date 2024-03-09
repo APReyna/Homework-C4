@@ -1,0 +1,62 @@
+/* Establecer márgenes y rellenos en 0 para todos los elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Incluye los bordes en el cálculo del tamaño */
+}
+
+/* Normalizar la tipografía */
+body, button, input, select, textarea {
+    font-family: Arial, sans-serif; /* Establecer una fuente predeterminada */
+}
+
+
+
+/* Eliminar decoraciones de enlaces predeterminadas */
+a {
+    text-decoration: none;
+}
+
+/* Asegurar que los elementos de bloque se comporten como esperado */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+/* Normalizar márgenes */
+body {
+    margin: 0;
+}
+
+/* Normalizar fuente */
+button, input, select, textarea {
+    font-family: inherit; /* Heredar la fuente del elemento padre */
+}
+
+/* Eliminar estilos de botón predeterminados */
+button {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+/* Agregar estilo del cursor predeterminado para todos los elementos */
+html {
+    cursor: default;
+}
+
+/* Normalizar tamaño de fuente */
+html {
+    font-size: 16px;
+}
+
+/* Normalizar espaciado de línea */
+body {
+    line-height: 1.5;
+}
+
+/* Asegurar que las imágenes sean responsivas */
+img {
+    max-width: 100%;
+    height: auto;
+}
